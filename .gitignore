@@ -38,9 +38,10 @@ artifacts/
 artifacts/*.keras
 artifacts/*.json
 
-# Data files - CSV files are tracked with Git LFS (large files)
-# Mapping files (.txt) are small and included normally
-# data/*.csv  # Now tracked with Git LFS, don't ignore
+# Data files - CSV files will be tracked with Git LFS (large files)
+# Uncomment the line below if NOT using Git LFS:
+# data/*.csv
+# data/emnist_source_files/
 
 # Test images are included (small files, useful for examples)
 # Uncomment below if you don't want to commit test images
