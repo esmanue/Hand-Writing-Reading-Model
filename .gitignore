@@ -33,15 +33,10 @@ env/
 *.swo
 *~
 
-# Model artifacts (optional - uncomment if you don't want to commit trained models)
-# artifacts/
-# artifacts/*.keras
-# artifacts/*.json
 
-# Data files (EMNIST datasets are large, don't commit CSV files)
-# Keep mapping files (.txt) as they're small and needed
-data/*.csv
-data/emnist_source_files/
+artifacts/
+artifacts/*.keras
+artifacts/*.json
 
 # Test images are included (small files, useful for examples)
 # Uncomment below if you don't want to commit test images
