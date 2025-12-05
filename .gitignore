@@ -38,11 +38,13 @@ env/
 # artifacts/*.keras
 # artifacts/*.json
 
-# Data files (EMNIST datasets are large, don't commit)
+# Data files (EMNIST datasets are large, don't commit CSV files)
+# Keep mapping files (.txt) as they're small and needed
 data/*.csv
 data/emnist_source_files/
 
-# Test images (optional - uncomment if you don't want to commit test images)
+# Test images are included (small files, useful for examples)
+# Uncomment below if you don't want to commit test images
 # test*.jpg
 # test*.png
 
